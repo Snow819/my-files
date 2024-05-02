@@ -1,0 +1,61 @@
+.wrapper{
+    display: flex;
+    /* justify-content: center ; */
+    text-transform: capitalize;
+    background-color:black;
+    color: white;
+    gap: 2cm;
+
+}
+.number{
+    margin-top: 2cm;
+}
+.second{
+    height: 800px;
+}
+.image{
+    height: 20px;
+}
+.button{
+    padding: 12px;
+    width: 540px;
+    text-align: center;
+    color: white;
+    background-color: inherit;
+    border: none solid white;
+}
+.oshi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.oshi hr{
+    width: 240px;
+}
+.email{
+    padding: 12px;
+    width: 500px;
+    border-radius: 10px;
+    color: white;
+    background-color: inherit;
+    border: 1px solid white;
+    margin-bottom: 15px;
+}
+.owl{
+  margin-bottom: 15px;  
+}
+.justice{
+    margin-left: 11cm;
+    margin-bottom: 10px;
+}
+.tired{
+    width: 540px;
+    padding: 12px;
+    background-color: rgb(116, 116, 165);
+    color: white;
+}
+.last{
+    margin-top: 2cm;
+    margin-left: 5cm;
+}

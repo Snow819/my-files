@@ -1,0 +1,32 @@
+.one{
+    background-color: #000000;
+    height: 1cm;
+    margin-top: -15px;
+
+
+}
+.I{
+    display: flex;
+    list-style-type: none;
+    gap: 0.6cm;
+    color: white;
+    font-size: small;
+    font-weight:500 ;
+    padding: 10px;
+    margin-left: 250px;
+}
+.I li:hover{
+    color: grey;
+}
+.two{
+    display: flex;
+    justify-content: space-around;
+}
+.II{
+    margin-left: 2cm;
+}
+.III{
+   gap: 5px;
+   width: 200px;
+   height: 20px;
+}

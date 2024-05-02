@@ -1,0 +1,58 @@
+.face{
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(26, 92, 235);
+    
+}
+.snow{
+    border: 1px solid black;
+    box-shadow: 0 0 10px black;
+    padding: 50px;
+    width: 210px;
+     margin: auto;
+     text-transform: capitalize;
+     border-radius: 7px;
+     
+}
+.box{
+    width: 6cm;
+    padding: 5px;
+    margin-bottom: 4px;
+    border: 1px solid black;
+    border-radius: 4px;
+    text-transform: capitalize;
+    justify-content: center;
+}
+.snail{
+    color: white;
+    width: 240px;
+    padding: 5px;
+    margin-bottom: 4px;
+    background-color: rgb(41, 129, 237);
+    border: none;
+    border-radius: 4px;
+    text-transform: capitalize;
+}
+.forgo{
+    margin-left: 49px;
+    margin-bottom: 4px;
+}
+.her{
+    width:2.5cm;
+    margin-bottom: 4px;
+    text-transform: capitalize;
+}
+.bro{
+    color: white;
+    width: 150px;
+    padding: 5px;
+    margin-bottom: 4px;
+    background-color: rgb(72, 239, 72);
+    border: none;
+    border-radius: 4px;
+    text-transform: capitalize;
+   margin-left: 30px;
+}
+.forgo:hover{
+    color: green;
+}

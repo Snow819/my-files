@@ -1,0 +1,101 @@
+.first{
+    background:linear-gradient(90deg, rgba(3, 20, 172, 0.995), rgba(11, 68, 201, 0.929),rgba(66, 89, 240, 0.825)70%,rgb(92, 154, 236));
+    color: white; 
+     height: 90vh;
+    width: 100%; 
+    text-transform: capitalize; 
+}
+.owl{
+    display: flex;
+    /* justify-content: center; */
+}
+.lone{
+margin-left: 180px;
+}
+
+.donut{
+    display: flex; 
+    gap: 70px;
+    float: left; 
+    list-style-type: none;
+    margin-left: 480px;
+}
+.know{
+    background-color: inherit;
+    width: 120px;
+    height: 30px;
+    color: white;
+    border: 1px solid white;
+}
+.shoe{
+    background-color: rgb(118, 221, 118);
+    color: white;
+    border-radius: 40px;
+    padding: 7px;
+    width: 100px;
+    border: none;
+}
+.link{
+    color:rgb(146, 146, 216);
+}
+.container{
+  display: flex;
+  justify-content: center;
+  /* font-size:30px; */
+  gap: 70px;
+}
+.thank{
+    font-size: 70px;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 150px;
+}
+.tired{
+    margin-right: 330px;
+}
+.head{
+    color: black;
+    text-align: center;
+}
+.white{
+    background-color: white;
+    padding: 20px;
+    height: 350px;
+    margin-top: 140px;
+    width: px;
+    justify-self: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
+.oil{
+    width: 170px;
+    padding: 7px;
+    text-align: left;
+    text-transform: capitalize;
+    margin-top: 10px;
+    border: none;
+}
+.box{
+    margin-top: 10px;
+    padding: 5px;
+    background-color: rgb(233, 229, 229);
+    border: 1px solid white;
+    width: 400px;
+}
+.id{
+    margin-top: 10px;
+    display: block;
+    width: 410px;
+    padding: 5px;
+    background-color: rgb(233, 229, 229);
+    border: 1px solid white;
+    
+}
+.ahh{
+    margin-top: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 40px;
+    width: 410px;
+    padding: 5px;
+    border: 1px solid white;
+}

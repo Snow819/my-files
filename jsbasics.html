@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jsbasics</title>
+</head>
+<body>
+  <div class="first">
+    <div>
+      <video src="" autoplay muted loop></video>
+    </div>
+
+  </div>
+    
+   var a = 7;
+  var b = 10;
+  var c = (a*b)
+  console.log(c)
+  var myvar = 77;
+  myvar = myvar -70;
+  console.log(product)
+     alert(helloWorld); -->
+     //create an array of object(name model and colour)
+       <script> 
+
+     var myarray= [
+      {name:"benz",model:2000, color:"red"},
+       {name:"benzx",model:2001, color:"yellow"},
+        {name:"benzy",model:2002, color:"blue"},
+       ];  
+      var age = 18;
+var message;
+
+
+if (age >= 16) {
+  message = 'You can drive.';
+} else {
+  message = 'You cannot drive.';
+}
+ if (age >= 16) {
+     console.log("you can drive");
+ } else {
+  console.log("you can not drive");
+ }
+
+// console.log(message);
+
+var age = 18;
+var message;
+
+message = age >= 16 ? 'You can drive.' : 'You cannot drive.';
+
+console.log(message);
+var speed = 70;
+var message = speed >= 120 ? 'Too Fast' : speed >= 80 ? 'Fast' : 'BLEH';
+
+console.log(message);
+
+var authenticated = true;
+var nextURL = authenticated
+  ? (alert('You will redirect to admin area'), '/admin')
+  : (alert('Access denied'), '/403');
+
+// redirect to nextURL here
+console.log(nextURL); // '/admin'
+
+var authenticated = true;
+var nextURL = authenticated
+?  (alert('hello world'),'/world')
+: (alert('fuck off'),'/foff');
+
+console.log(nextURL);
+    var age = 90;
+    var message;
+
+    message = age <= 9 ? 'junior.' : 'senior.';
+    
+    console.log(message);
+ 
+    function letterFinder(word,match) {
+      for (let i = 0; i < word.length; i++) {
+          if(word[i] === match){
+            console.log('Found the',match,'at',i);
+          } else{
+            console.log('---No match found at',i);
+          }
+        
+      }
+    }
+     
+    letterFinder('teaded ','t');
+    var day = 5;
+     var dayName;
+
+switch (day) {
+  case 1:
+    dayName = 'Sunday';
+    break;
+  case 2:
+    dayName = 'Monday';
+    break;
+  case 3:
+    dayName = 'Tuesday';
+    break;
+  case 4:
+    dayName = 'Wednesday';
+    break;
+  case 5:
+    dayName = 'Thursday';
+    break;
+  case 6:
+    dayName = 'Friday';
+    break;
+  case 7:
+    dayName = 'Saturday';
+    break;
+  default:
+    dayName = 'Invalid day';
+}
+
+console.log(dayName); // Tuesday
+
+let year = 2016;
+let month = 2;
+let dayCount;
+
+switch (month) {
+  case 1:
+  case 3:
+  case 5:
+  case 7:
+  case 8:
+  case 10:
+  case 12:
+    dayCount = 31;
+    break;
+  case 4:
+  case 6:
+  case 9:
+  case 11:
+    dayCount = 30;
+    break;
+  case 2:
+    // leap year
+    if ((year % 4 == 0 && !(year % 100 == 0)) || year % 400 == 0) {
+      dayCount = 29;
+    } else {
+      dayCount = 28;
+    }
+    break;
+  default:
+    dayCount = -1; // invalid month
+}
+
+console.log(dayCount); // 29 
+
+var count = 1;
+while (count < 10) {
+    console.log(count);
+    count +=2;
+} 
+// generate a secret number between 1 and 10
+const MIN = 1;
+const MAX = 10;
+
+let secretNumber = Math.floor(Math.random() * (MAX - MIN + 1)) + MIN;
+
+let guesses = 0; // for storing the number of guesses
+let hint = ''; // for storing hint
+let number = 0;
+do {
+  // get input from user
+  let input = prompt(`Please enter a number between ${MIN} and ${MAX}` + hint);
+
+  // get the integer
+  number = parseInt(input);
+
+  // increase the number of guesses
+  guesses++;
+
+  // check input number with the secret number provide hint if needed
+  if (number > secretNumber) {
+    hint = ', and less than ' + number;
+  } else if (number < secretNumber) {
+    hint = ', and greater than ' + number;
+  } else if (number == secretNumber) {
+    alert(`Bravo! you're correct after ${guesses} guess(es).`);
+  }
+} while (number != secretNumber);
+ console.log(secretNumber);
+
+//  functions
+
+{
+  function pow(x,y){
+    let total =1;
+    for(let i=0; i<y; i++){
+      total *= x;
+    }
+    return total;
+  }
+  var coolFunctions =[pow];
+  // console.log(coolFunctions[0](3,3));
+
+  var mathFunctions ={
+    power : pow 
+  };
+  console.log(mathFunctions.power(3,3));
+}
+
+</script>   
+</body>
+</html>

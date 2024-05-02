@@ -1,0 +1,247 @@
+.I{
+    background-image:url(background.jpg);
+    background-size: cover;
+    height: 18.6cm;
+}
+.header{
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: center;
+    gap: 2cm;
+    background-color:rgba(0, 0, 0, 0.825)
+    
+}
+.image{
+    background-color: inherit;
+
+}
+.alph{
+    color: rgb(129, 247, 129);
+    font-weight: 900;
+
+}
+.text{
+    color: rgb(238, 128, 128);
+
+}
+.list{
+    display: flex;
+    gap: 1cm;
+    list-style-type: none;
+    background-color: rgb(255, 165, 0);
+    padding: 15px;
+    border-radius: 36px;
+}
+.lis{
+    margin-top: 3px;
+}
+.button{
+    padding: 9px;
+    color: white;
+    background-color: black;
+    border-radius: 16px;
+    border: none;
+    width: 4cm;
+    font-weight: 900;
+}
+.list li:hover{
+    color: aliceblue;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 1cm; */
+    background-color: rgba(0, 0, 0, 0.551);
+}
+.II{
+    font-size: 1.6cm;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 
+    'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-top: 5cm;
+}
+.bold{
+    color: rgb(255, 111, 0); 
+}
+.V{
+    color: rgb(255, 111, 0);  
+}
+.III{
+  font-size: 20px;
+  color: white;  
+}
+.IV{
+    padding: 8px;
+    background:linear-gradient(to right, rgb(227, 199, 114), rgba(255, 104, 3, 0.975),
+    rgba(255, 104, 3, 0.975)90%,rgba(255, 104, 3, 0.975));
+    color: white;
+    border: none;
+    border-radius: 16px;
+    width: 150px;
+}
+.VI{
+    width: 16cm;
+}
+.IV:hover{
+    background-color: gray;
+    color: black;
+}
+.container-2{
+    display: flex;
+    justify-content: center;
+    margin-top: 1cm;
+    gap: 2cm;
+}
+.container-3{
+    background-color: rgb(255,238, 231);
+    text-align: center;
+    padding: 15px;
+    border-radius: 12px;
+    width: 13cm;
+}
+.VIII{
+    color: black;
+    font-size: 0.6cm;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.IX{
+    color: rgb(255, 111, 0); 
+    margin-top: -30px; 
+}
+.X{
+    font-size: medium;
+}
+.XI{
+    color: rgb(255, 111, 0);
+    font-size: medium;
+    margin-top: -2px;   
+}
+.container-4{
+    display: flex;
+    justify-content: center;
+    gap: 1.6cm;
+    background-color: #fff;
+    padding: 13px;
+    background-color: white;
+}
+.XII{
+    font-weight: 900;
+    color: rgb(255, 111, 0);
+    font-size: 0.8cm;
+}
+.XIII{
+    margin-top: -3px;
+    font-size: medium;
+}
+.XIV{
+    transform: rotate(50deg);
+    width: 50px;
+    height: 50px;
+    background-color:  rgb(255,238, 231);
+    padding: 10px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 14px;
+}
+.rote{
+    transform: rotate(-50deg);
+    text-align: center;
+    padding: 10px;
+}
+.rote p{
+    line-height: .9;
+}
+.XV{
+    padding: 20px;
+}
+.Xv{
+    padding: 10px;
+    width: 4cm;
+    background-color: rgb(255, 111, 0);
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+}
+.container-5{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 111, 0); ;
+    color: white;
+    padding: 1.2cm;
+    border-radius: 30px;
+    margin-top: 2cm;
+}
+.XVI{
+    display: flex;
+    gap: 1cm;
+}
+.air{
+    height: 2cm;
+    margin-top: 0.5cm;
+}
+.land{
+    text-align: center;
+}
+.unknown{
+    display: grid;
+    grid-template-rows: 400px 400px;
+    grid-template-columns:300px 300px 300px ;
+    gap: 1rem;
+    grid-auto-rows: 400px;
+    justify-content: center;
+}
+.grid-1{
+    padding: 10px;
+}
+.grid-2{
+    padding: 10px;
+}
+.grid-3{
+    padding: 10px;
+}
+.grid-4{
+    padding: 10px;
+}
+.grid-5{
+    padding: 10px;
+}
+.grid-6{
+    padding: 10px;
+}
+.grid-item{
+    background-color:  rgb(255,238, 231);
+    border-radius: 8px;
+}
+.fone{
+    background-image: url(back-removebg-preview.png);  
+}
+.case{
+    background-color: rgba(255, 0, 0, 0.485);
+    border-radius: 6px;
+    color: white;
+}
+.white{
+    background-color: #fff;  
+}
+.two{
+   margin-top: -0.4cm;
+}
+.three{
+    display: flex;
+    color: orangered;
+    gap: 2cm;
+
+}
+.one{
+    padding: 7px;
+    border: none;
+    border-radius: 13px;
+    width: 2.5cm;
+   background-color: rgb(252, 108, 56);
+   color: white;
+   margin-top: 25px;
+}

@@ -1,0 +1,102 @@
+.wrapper{
+    background-color: rgb(250, 244, 233);
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+.ul{
+    display: flex;
+    list-style-type:none ;
+    gap: 1.5cm;
+}
+.i{
+    display: flex;
+    gap: 0.7cm;
+}
+.btn{
+    width: 3cm;
+    font-weight: 700;
+    border: none;
+    color: white;
+    background-color: rgba(57, 5, 200, 0.976);
+    border-radius: 3px;
+}
+/* body */
+.ii{
+    margin-top: 3cm;
+}
+img{
+    width: 2cm;
+}
+.iii{
+    display: flex;
+    margin-top: 100px;
+}
+.iv{
+    display: flex;
+    gap: 5px;
+}
+.v{
+    display: flex;
+}
+.vi{
+    width: 1cm;
+    height: 1cm;
+}
+.buju{
+    display: flex;
+}
+.bu{
+    width: 3cm;
+    padding: 6px;
+    color: white;
+    background-color: rgb(117, 0, 117);
+    border: none;
+    /* br */
+}
+@media screen and (max-width:1024px){
+    
+    .ul{
+        /* display: none; */
+    }
+    .iii{
+        display: block;
+    }
+}
+.buju{
+    /* display: block; */
+    justify-content: center;
+    gap: 2cm;
+}
+.up{
+    width: 130%;
+}
+.h{
+    font-weight: 900;
+    font-size: 50px;
+    margin-top: -17px;
+    
+}
+.w{
+    margin-top: -19px;  
+}
+.link{
+    color: blueviolet;
+}
+.link:hover{
+    color:  rgb(117, 0, 117) ;
+}
+
+@media (max-width:975px){
+    .buju{
+        flex-flow: column;
+
+    }
+    .up{
+        width: 100%;
+    }
+    .d-block{
+        display: none;
+    }
+}

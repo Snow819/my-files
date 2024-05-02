@@ -1,0 +1,67 @@
+.first{
+    background-color: rgb(150, 220, 150);
+    display: flex;
+    justify-content:space-between;
+    color: black;
+
+}
+.well{
+    color: black;
+}
+.body{
+    display: flex;
+    gap: 10px;
+}
+.boy{
+    list-style-type: none;
+}
+.button{
+    padding: 50px;
+    text-align: center;
+    margin: 20px;
+}
+.bruda{
+    padding: 10px;
+    background-color: rgb(150, 220, 150);
+    border: none;
+}
+.snow{
+    text-align: center;
+    background-color:rgb(150, 220, 150);
+    padding: 9px;
+    color: white;
+    margin-bottom: 2px;
+}
+.basit{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.sno{
+    text-align: center;
+    padding: 1cm;
+}
+.one{
+    background-color: rgb(236, 198, 198);
+    width: 400px;
+    text-align: center;
+}
+.two{
+    background-color: rgb(185, 239, 185);
+    width: 400px;
+    text-align: center;
+}
+.three{
+    background-color: rgb(234, 234, 162);
+    width: 400px;
+    text-align: center;
+}
+.four{
+    background-color:aqua;
+    width: 400px;
+    text-align: center;
+}
+.bruda:hover{
+    background-color: rgb(175, 175, 245);
+    color: black;
+}

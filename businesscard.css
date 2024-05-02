@@ -1,0 +1,38 @@
+.wrapper{
+    background-color: black;
+    color: wheat;
+    width: fit-content;
+    margin-left: 5cm;
+    padding: 12px;
+}
+.images{
+    display: block;
+  width: 400px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.tired{
+    text-align: center;
+}
+.button{
+    display: flex;
+    gap:1cm;
+    justify-content: center;
+}
+.fine{
+    width: 5cm;
+    text-transform: capitalize;
+    color: white;
+    background-color: purple;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+.lmage{
+    display: flex;
+    justify-content: center;
+}
+.fine:hover{
+    background-color: green;
+    color: black    ;
+}

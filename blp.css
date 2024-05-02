@@ -1,0 +1,257 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+.wrapper{
+    display: flex;
+
+}
+.image{
+
+}
+.list{
+    margin-left: 2cm;
+}
+.wo{
+    display: flex;
+    list-style-type: none;
+    gap: 1cm;
+    justify-content: space-evenly;
+    font-size: 0.5cm;
+    margin-left: 5cm;
+}
+.two{
+    display: flex;
+    margin-top: 3cm;
+    justify-content: center;
+    gap: 3cm;
+}
+.text{
+
+}
+.from{
+    font-size: 1.2cm;
+    margin-top: 3cm;
+}
+.boy{
+    font-size: 0.6cm;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    display: flex;
+    gap: 1cm;
+}
+.box{
+    width: 250px;
+    height: 11vh;
+}
+
+.imag{
+    width: 18cm;
+    height: 17cm;
+}
+.three{
+    display: flex;
+    justify-content: center;
+    margin-top: 2cm;
+    gap: 2cm;
+}
+.snow{
+    background-color:rgb(27, 209, 140);
+}  
+.table{
+ 
+}
+.snow{
+    background-color: rgb(27, 209, 140);
+    padding-top: 50px;
+    border-radius: 25px;
+    color: white;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 
+    'Arial Narrow', Arial, sans-serif;
+    padding: 0.8cm;
+}
+.nottable{
+    background-color: rgb(27, 209, 140);
+    padding-top: 50px;
+    border-radius: 25px;
+    color: white;
+}
+.top{
+    font-size: 29px;
+    font-family: 'Franklin Gothic Medium', 
+    'Arial Narrow', Arial, sans-serif;
+    padding: 0.8cm;
+}
+.head{
+    display: flex;
+    background:linear-gradient(to right, rgb(27, 209, 140), rgba(27,209,140),
+    rgba(27,209,140)70%,rgba(249, 229, 8, 0.664));
+    justify-content: center;
+    gap: 2cm;
+    height: 10cm;
+    margin-top: 2cm;
+    color: white;
+}
+.green{
+    width: 50%;
+    height: 70vh;
+    padding: 84px 56px;
+    margin-top: 5px;
+}
+.ori{
+    font-size: 29px;
+    
+}
+.tired{
+    display: flex;
+    gap: 1cm;
+    margin-top: 1cm;
+}
+.asset{
+    width: 15hv;
+    height: 10vh;
+}
+.anime{
+    width: 5hv;
+    height: 60vh;
+    margin-top: -30px;
+}
+.wo li:hover{
+    color: green;
+}
+.mom{
+    text-align: center;
+    background-color: #faeded5c;
+    margin-top: 3cm;
+}
+.lock{
+    font-size: 0.5cm;
+    font-weight: 1000;
+    padding: 0.9cm;
+}
+.hula{
+    border: 2px solid rgb(68, 212, 68);
+    background-color:rgb(227, 246, 227);
+    width: 19cm;
+    height: 9cm;
+    border-radius: 13px;
+    margin-left: 13cm;
+}
+.miss{
+    display: flex;
+    justify-content:center;
+    gap:0.4cm;
+    margin-top: 1cm;
+}
+.shalli{
+margin-top: 150px;
+}
+.shalli-2{
+    margin-top: 29px;
+}
+.pic{
+    height: 90px;
+}
+.hula:hover{
+    background-color: rgb(217, 217, 158);
+    cursor: wait;
+}
+.bottom{
+    border-bottom: 3px solid rgb(68, 212, 68);
+    padding-bottom: 3cm;
+}
+.header{
+    font-size: 1.2cm;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.omo{
+    font-size: 0.5cm;
+    font-weight: 700;
+    text-align: center;
+}
+.mother{
+    display: flex;
+    gap: 0.5cm;
+}
+.green-1{
+    background-color:rgb(68, 212, 68);
+    padding: 0.8cm;
+    padding-right: 0.3px;
+    border-radius: 9px;
+    height: 16cm;
+}
+.h2{
+  text-align: center;  
+  color: white;
+}
+.green-2{
+    background-color: white;
+    padding: 1cm;
+    height: 12cm;
+    border-bottom-left-radius: 4cm;
+    border-top-right-radius: 1cm;
+    margin-left: -1cm;
+    margin-right:0.9cm;
+}
+.ul{
+  list-style-type: none;
+  text-align:left ;
+  
+}
+ul li {
+    background-size: 1px !important; 
+  }
+  .green-2 img{
+    height: 30px;
+  }
+  .green-2 li{
+    display: flex;
+    align-items: start;
+    gap: 8px;
+    margin-bottom: 10px;
+  }
+ .break{
+    color: green solid;  
+ }
+ .soup{
+  display: flex;
+  background-image:url(/asset\ 14.png);
+  background-size: cover;
+  gap: 10cm; 
+  margin-top: 2cm;
+  justify-content: center; 
+ }
+ .pho{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 0.9cm;
+ }
+.anoda{
+    display: flex;
+    gap:10px;
+    margin-left: 30px;  
+}
+.esc{
+    width: 35px;
+    margin-top: 0.9cm;
+    /* margin-left: 30px; */
+}
+.diff{
+    display: flex;
+    gap: 3cm;
+}
+.size{
+    font-size: 20px;
+    color: gray;
+}
+.sweet{
+    width: 35cm;
+    border: 1px solid green;
+}
+.ahh{
+    text-align: center;
+}

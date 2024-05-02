@@ -1,0 +1,10 @@
+.header{
+    text-align: center;
+}
+.flat{
+    display: flex;
+    gap: 1cm;
+    text-align:center;
+    justify-content: center;
+    /* margin-top: 2opx  ; */
+}
