@@ -1,0 +1,38 @@
+.top{
+    display: flex;
+    gap: 20px;
+    background-color: black;
+    justify-content: flex-end;
+}
+button{
+    margin-top: 8px;
+    background-color:;
+    padding: 10px 20px;
+    width: 3cm;
+    background-color: inherit;
+    border:1px solid white;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+}
+button:hover{
+    background-color: rgb(225, 129, 225) ;
+    color: black ;
+    border: 1px solid rgba(0, 0, 0, 0.414);
+}
+.snow{
+    color: white;
+    font-weight: 700;
+    font-size: large;
+}
+.search{
+    color: white;
+    font-weight: 900;
+    font-size: x-large;
+    justify-content: ;
+}
+.search-main{
+    list-style: none;
+    margin-top: 18px;
+    
+}

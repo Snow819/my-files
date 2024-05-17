@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="alfa.css">
+  </head>
+  <body>
+    <div class="container ">
+      <table class="table table-bordered mt-5">
+        <tbody>
+           INPUT MARKS
+          <tr>
+            <td rowspan="2" style="width: 200px" class="snow">NAME</td>
+            <td scope="col" colspan="5" class="text-center">SCORE</td>
+          </tr>
+          <tr>
+            <td>HINDI</td>
+            <td>ENGLISH</td>
+            <td>MATHS</td>
+            <td>C PROGRAMING</td>
+          </tr>
+          <tr>
+            <td> <input type="text" name="" id="text"></td>
+            <td><input type="number" name="" id="input1" class="w-100" /></td>
+            <td><input type="number" name="" id="input2" class="w-100" /></td>
+            <td><input type="number" name="" id="input3" class="w-100" /></td>
+            <td><input type="number" name="" id="input4" class="w-100" /></td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="d-flex justify-content-center border class="-2>
+        <button class="btn btn-lg">Add to Table</button>
+      </div>
+
+      <table class="table table-bordered mt-5">
+        <tr>
+          <td>NAME</td>
+          <td>TOTAL</td>
+          <td>AVERAGE</td>
+          <td>PASS OR FAIL</td>
+        </tr>
+        <tr class="p-">
+          <td id="mayor" class="h-100 text-center">p</td>
+          <td id="show" class="h-100 text-center">p</td>
+          <td id="avrg" class="h-100 text-center">p</td>
+          <td id="pass" class="h-100 text-center">p</td>
+        </tr>
+      </table>
+      <h2></h2>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      const hindiScore = document.querySelector("#input1");
+      const englishScore = document.querySelector("#input2");
+      const mathScore = document.querySelector("#input3");
+      const cpScore = document.querySelector("#input4");
+      const name = document.querySelector("#text");
+      const btn = document.querySelector("button");
+      
+      btn.addEventListener("click", function () {
+          const names = name.value.trim();
+        // addition();
+        document.querySelector("#show").textContent = addition();
+        document.querySelector("#avrg").textContent = average();
+        document.querySelector('#pass').textContent = passed();
+        document.querySelector('#mayor').textContent = names;
+
+        console.log(addition());
+        console.log(average());
+        console.log(passed());
+        console.log(names);
+      });
+     
+      function addition() {
+         
+      const hScore = hindiScore.value.trim();
+    const eScore = englishScore.value.trim();
+    const mScore = mathScore.value.trim();
+    const cScore = cpScore.value.trim();
+        let add =Number(hScore)+Number(eScore) + Number(mScore) + Number(cScore);
+        return add;
+        // console.log(add);   
+        cScore = '';
+      }
+      let addn =addition()
+      console.log(addn);
+      function average() {
+    let avr = addition() / 4;
+          return avr;
+      }
+      function passed(){
+        if (average() >= 50) {
+            return 'pass';
+        }else{
+            return 'fail';
+        }
+      }
+    //   let paf = average();
+    //   console.log(addition());
+    //   console.log(paf);
+
+    </script>
+  </body>
+</html>

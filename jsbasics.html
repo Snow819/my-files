@@ -208,6 +208,82 @@ do {
   };
   console.log(mathFunctions.power(3,3));
 }
+(function() {
+    console.log('IIFE');
+})();
+var person = {
+    firstName: 'John',
+    lastName: 'Doe'
+};
+
+(function () {
+    console.log(person.firstName + ' ' + person.lastName);
+})(person);
+let add = (a, b) => a + b;  
+//another 
+var person = {
+  name: 'John',
+  age: 25,
+};
+
+// add the ssn property
+person.ssn = '123-45-6789';
+
+// change the name
+person.name = 'John Doe';
+
+// delete the age property
+delete person.age;
+
+
+console.log(person);
+//another
+function square(x) {
+    x = x * x;
+    return x;
+}
+
+let y = 10;
+let result = square(y);
+
+console.log(result); // 100 
+console.log(y); // 10 -- no change
+//another
+var person = {
+  name: 'John',
+  age: 25,
+};
+
+function increaseAge(obj) {
+  obj.age += 1;
+
+  // reference another object
+  obj = { name: 'Jane', age: 22 };
+}
+
+increaseAge(person);
+
+console.log(person);
+//another
+function countDown(fromNumber) {
+    console.log(fromNumber);
+    let nextNumber = fromNumber-1;
+    if (nextNumber > 0) {
+    countDown(nextNumber);
+  }
+}
+
+countDown(3);
+//another
+function createDiv(height = '100px', width = '100px', border = 'solid 1px red') {
+    var div = document.createElement('div');
+    div.style.height = height;
+    div.style.width = width;
+    div.style.border = border;
+    document.body.appendChild(div);
+    return div;
+}
+
 
 </script>   
 </body>

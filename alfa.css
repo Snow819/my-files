@@ -1,0 +1,12 @@
+.container{
+    background-color:rgba(0, 0, 0, 0.538);
+    color: white;
+}
+.table{
+    background-color:rgba(0, 0, 0, 0.538) !important;
+    color: white;   
+}
+.snow{
+    background-color: red !important;
+    color: wheat ;
+}

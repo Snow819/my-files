@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      var countDown = function f(fromNumber){
+        console.log(fromNumber);
+         
+        var nextNumber =  fromNumber -1;
+        if (nextNumber > 0) {
+            f(nextNumber);
+            
+        }
+      }
+      let nextYearCountDown = countDown;
+      countDown = null;
+      nextYearCountDown(300);
+
+    </script>
+    
+</body>
+</html>
