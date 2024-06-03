@@ -5,7 +5,7 @@
     transition: .5s;
     height: 300px;
     width: 100%;
-    object-fit: cover;
+    object-fit: cover ;
 
 }
 
@@ -77,6 +77,8 @@
     font-weight: normal;
     text-transform: capitalize;
     transition: .3s;
+    text-decoration: none;
+    
 }
 
 .footer .btn.btn-link::before {

@@ -6,7 +6,7 @@
 }
 button{
     margin-top: 8px;
-    background-color:;
+    /* background-color:; */
     padding: 10px 20px;
     width: 3cm;
     background-color: inherit;
@@ -29,7 +29,7 @@ button:hover{
     color: white;
     font-weight: 900;
     font-size: x-large;
-    justify-content: ;
+    /* justify-content: ; */
 }
 .search-main{
     list-style: none;
