@@ -1,6 +1,21 @@
 .header{
 display: flex;
-justify-content: space-between;
+justify-content: space-around;
+position: fixed;
+width: 100%;
+z-index: 1;
+top: 0px;
+column-gap:4cm ;
+margin-top: 0.1rem;
+background-color: white;
+}
+.exnes{
+    width: 100%;
+}
+.he{
+    color: black;
+    font-family: Poppins, aktiv-grotesk, sans-serif;
+    font-weight: 200;
 }
 .ul{
     display: flex;
@@ -40,7 +55,7 @@ justify-content: space-between;
     margin-left: -10px;
 }
 .video-container {
-    position: relative;
+    /* position: relative; */
     height: 80vh; 
     /* height: auto; */
     /* height: 100%; */
@@ -48,7 +63,7 @@ justify-content: space-between;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -4rem;
+    margin-top: 1rem;
     /* border-bottom: 2px solid rgba(0, 0, 0, 0.344); */
 }
 .background-video {
@@ -107,6 +122,75 @@ justify-content: space-between;
     background-color:#ffdd028a ;
 }
 .snow{
-    border: 1px solid red;
+    border: 0.01cm solid rgba(7, 3, 3, 0.182);
     width: 80%;
+    /* justify-content: center ; */
+}
+.hold{
+  display: flex;
+  gap: 3cm;
+  text-align: center;
+  justify-content: center;
+}
+.max{
+    display: flex;
+    gap: 0.3cm;
+}
+.im{
+    margin-top: 0.4cm;
+}
+.max p{
+    font-size: larger;  
+    font-weight: 400;
+    color: #000000e3; 
+}
+.black{
+    background-color:#070e20;
+    color: white;
+    /* padding:3cm; */
+   
+}
+h1{
+    text-align: center;
+    color: white;
+    padding: 2cm;
+    /* font-weight: 800; */
+    font-size: larger;
+    font-weight: 800;
+}
+.trade{
+    display: flex;
+    justify-content: space-around;
+}
+.one{
+   margin-top: 6cm;
+   text-align: center;
+}
+.two{
+    margin-top: 2cm;
+}
+.ons{
+    background-color: #6c8595;
+    border-radius: 11px;
+    width: 120px;
+    padding: 0.1cm;
+    font-weight: 800;
+    color: white;
+    border: none;
+}
+.tons{
+    background-color: #6c8595;
+    border-radius: 11px;
+    width: 80px;
+    padding: 0.1cm;
+    font-weight: 800;
+    color: white;
+    border: none;
+}
+.img{
+    height: 20cm;
+}
+.p{
+    color: rgba(255, 255, 255, 0.643);
+    margin-top: -10px;
 }
