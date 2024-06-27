@@ -13,52 +13,183 @@
     </header>
     <div class="B">
     <div class="snow">
-    <fieldset>
+
+   
         <h3>
             change your pin
         </h3>
+        <form id="sign-up">
         <div class="di">
         <p class="p">Old pin*</p>
-        <input type="password" name="" id="" class="pass">
+        <input type="password" name="" id="pass-1" class="pass1">
+        <div class="message"></div>
         </div>
         <div class="di">
         <p class="p">Enter New Pin*</p>
-        <input type="password" name="" id="" class="pass">
+        <input type="password" name="" id="pass-2" class="pass2">
+        <div class="message"></div>
         </div>
         <div class="di">
         <p class="p">Re-Enter New Pin*</p>
-        <input type="password" name="" id="" class="pass"> <br>
+        <input type="password" name="" id="pass-3" class="pass3">
+        <div class="message"></div>
         </div>
         <div class="di">
-            <button class="button">Change pin</button>    
+            <button class="submit1">Change pin</button>    
         </div>
+    </form>
         
-
-    </fieldset>
    </div>
    <div class="snow">
-    <fieldset>
+        <form id="sign-up2">
         <h3>
             Reset pin Lost pin
         </h3>
         <div class="di">
         <p class="p">Enter your password*</p>
-        <input type="password" name="" id="" class="pass">
+        <input type="password" name="" id="pass-4" class="pass4">
+        <div class="message"></div>
         </div>
         <div class="di">
         <p class="p">Enter New Pin*</p>
-        <input type="password" name="" id="" class="pass">
+        <input type="password" name="" id="pass-5" class="pass5">
+        <div class="message"></div>
         </div>
         <div class="di">
         <p class="p">Re-Enter New Pin*</p>
-        <input type="password" name="" id="" class="pass"> <br>
+        <input type="password" name="" id="pass-6" class="pass6"> 
+        <div id="" class="message"></div>
         </div>
         <div class="di">
-        <button class="button">Reset pin</button>
+        <button class="submit">Reset pin</button>
+        <div class="message"></div>
         </div>
+    </form>
     </fieldset>
    </div>
   </div>
+  <!-- <script>
+    var flo = document.querySelector(".flo");
+    var pass1 = document.querySelector(".pass1");
+    var pass2 = document.querySelector(".pass2");
+    var pass3 = document.querySelector(".pass3");
+    var message = document.querySelector(".message");
+
+    if (pass1.value === '') {
+        message.innerHTML = "password cannot be empty";
+    } else {
+        console.log("me");
+    }
+  </script> -->
+  <script>
+    document.getElementById('sign-up').addEventListener('submit',function(e){
+      e.preventDefault();
+      checkPasswor();
+    });
+     function checkPasswor(){
+        let isvalid = true;
+         var pass1 = document.querySelector("#pass-1");
+         var pass2 = document.querySelector("#pass-2");
+         var pass3 = document.querySelector("#pass-3");
+        //  var message = document.querySelector(".message");
+         if (pass1.value === "") {
+            //  message.innerHTML = "password cannot be empty";
+            setError(pass1,"you must enter a valid password")
+             isvalid = false;  
+         } else {
+            //  message.innerHTML = "";
+            setSuccess(pass1)
+            isvalid =true; 
+         }
+         
+         if (pass2.value === "") {
+            setError(pass2,"you must enter a valid password")
+             //message.innerHTML = "password cannot be empty";
+             isvalid = false;  
+         } else {
+            setSuccess(pass2)
+             //message.innerHTML = "";
+             isvalid = true;
+         }
+         if (pass3.value === "") {
+            setError(pass3,"you must enter a valid password")
+             //message.innerHTML = "password cannot be empty";
+             isvalid = false;  
+         } else {
+            setSuccess(pass3)
+             //message.innerHTML = "";
+             isvalid = true;
+         }
+    }
+
+    function setError(input,message){
+        let messages = input.nextElementSibling;
+        messages.innerHTML = message;
+    }
+    function setSuccess(input){
+        let messages = input.nextElementSibling;
+        messages.innerHTML = '';
+    }
+    document.getElementById('sign-up2').addEventListener('submit',function(e){
+      e.preventDefault();
+      checkPassword();
+    });
+     function checkPassword(){
+        let isvalid = true;
+         var pass4 = document.querySelector("#pass-4");
+         var pass5 = document.querySelector("#pass-5");
+         var pass6 = document.querySelector("#pass-6");
+        //  var message = document.querySelector(".message");
+         if (pass4.value === "") {
+            //  message.innerHTML = "password cannot be empty";
+            setError(pass4,"you must enter a valid password")
+             isvalid = false;  
+         } else {
+            //  message.innerHTML = "";
+            setSuccess(pass4)
+            isvalid =true; 
+         }
+         
+         if (pass5.value === "") {
+            setError(pass5,"you must enter a valid password")
+             //message.innerHTML = "password cannot be empty";
+             isvalid = false;  
+         } else {
+            setSuccess(pass5)
+             //message.innerHTML = "";
+             isvalid = true;
+         }
+         if (pass6.value === "") {
+            setError(pass6,"you must enter a valid password")
+             //message.innerHTML = "password cannot be empty";
+             isvalid = false;  
+         } else {
+            setSuccess(pass6)
+             //message.innerHTML = "";
+             isvalid = true;
+         }
+    }
+
+    // function setError(input,message){
+    //     let messages = input.nextElementSibling;
+    //     messages.innerHTML = message;
+    // }
+    // function setSuccess(input){
+    // function checkPasswor(){
+    //      var pass2 = document.querySelector(".pass2");
+    //      var message = document.querySelector(".message");
+
+    //      if (pass2.value === "") {
+    //          message.innerHTML = "password cannot be empty";
+    //          return false;   
+    //      } else {
+    //          message.innerHTML = "";
+    //          return true;  
+    //      }
+    // }
+
+  </script> 
+  <!-- <script src="pin.js"></script> -->
   <!-- <script>
     const fieldset = document.getElementsByClassName('fieldset')
     const pass = document.getElementsByClassName('pass')
@@ -80,7 +211,7 @@
         }
         
   </script> -->
-  <script>
+  <!-- <script>
     const fieldset = document.querySelector('.fieldset');
     const pass = document.querySelector('.pass');
       
@@ -107,7 +238,7 @@
     function setSuccessFor(input) {
         // Add code to handle success state for the input
     }
-</script>
+</script> -->
         
     
 </body>
