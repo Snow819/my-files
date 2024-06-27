@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>changepin</title>
+    <link rel="stylesheet" href="pin.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <header class="log">
+    <button><i class="sno bi bi-power"></i>Logout</button>
+    </header>
+    <div class="B">
+    <div class="snow">
+    <fieldset>
+        <h3>
+            change your pin
+        </h3>
+        <div class="di">
+        <p class="p">Old pin*</p>
+        <input type="password" name="" id="" class="pass">
+        </div>
+        <div class="di">
+        <p class="p">Enter New Pin*</p>
+        <input type="password" name="" id="" class="pass">
+        </div>
+        <div class="di">
+        <p class="p">Re-Enter New Pin*</p>
+        <input type="password" name="" id="" class="pass"> <br>
+        </div>
+        <div class="di">
+            <button class="button">Change pin</button>    
+        </div>
+        
+
+    </fieldset>
+   </div>
+   <div class="snow">
+    <fieldset>
+        <h3>
+            Reset pin Lost pin
+        </h3>
+        <div class="di">
+        <p class="p">Enter your password*</p>
+        <input type="password" name="" id="" class="pass">
+        </div>
+        <div class="di">
+        <p class="p">Enter New Pin*</p>
+        <input type="password" name="" id="" class="pass">
+        </div>
+        <div class="di">
+        <p class="p">Re-Enter New Pin*</p>
+        <input type="password" name="" id="" class="pass"> <br>
+        </div>
+        <div class="di">
+        <button class="button">Reset pin</button>
+        </div>
+    </fieldset>
+   </div>
+  </div>
+  <!-- <script>
+    const fieldset = document.getElementsByClassName('fieldset')
+    const pass = document.getElementsByClassName('pass')
+      
+    fieldset.addEventListener('button',(e)=>{
+        e.preventDefault();
+        checkInputs();
+
+    });
+    function checkInputs(){
+        const fieldsetValue = fieldset.value.trim();
+        const passValue = pass.value.trim();
+
+        if(passValue === ''){
+            setErrorFor(pass, 'Password cannot be blank')
+
+        }else{
+            setSuccessFor(pass)
+        }
+        
+  </script> -->
+  <script>
+    const fieldset = document.querySelector('.fieldset');
+    const pass = document.querySelector('.pass');
+      
+    fieldset.addEventListener('submit', (e) => {
+        e.preventDefault();
+        checkInputs();
+    });
+    
+    function checkInputs() {
+        const fieldsetValue = fieldset.value.trim();
+        const passValue = pass.value.trim();
+
+        if (passValue === '') {
+            setErrorFor(pass, 'Password cannot be blank');
+        } else {
+            setSuccessFor(pass);
+        }
+    }
+
+    function setErrorFor(input, message) {
+        // Add code to handle displaying error message for the input
+    }
+
+    function setSuccessFor(input) {
+        // Add code to handle success state for the input
+    }
+</script>
+        
+    
+</body>
+</html>

@@ -7,14 +7,49 @@
     <link rel="stylesheet" href="newmexico.css">
 </head>
 <body>
-    <div>
+    <!-- <div>
         <div>
+            <details>
+                <summary>Snow</summary>
+                
+               <li>snow</li>
+               <li>snow</li>
+               <li>snow</li>
+        
+            </details>
+            <details>snow</details>
 
         </div>
         <div>
             
         </div>
-    </div>
-    
+    </div> -->
+    <!-- hamburger menu -->
+     <div class="off-screen-menu">
+        <ul>
+            <li>home</li>
+            <li>contact</li>
+            <li>about</li>
+        </ul>
+     </div>
+    <nav>
+        <div class="ham-menu">
+         <span></span>
+         <span></span>
+         <span></span>
+        </div>
+    </nav>
+    <script>
+        const hamMenu = document.querySelector(
+            'ham-menu'
+        );
+        const offScreenMenu = document.querySelector
+        ('.off-screen-menu');
+        hamMenu.addEventListener('click',() => {
+            hamMenu.classList.toggle('active');
+            offScreenMenu.classList.toggle('active');
+        }
+    )
+    </script>
 </body>
 </html>

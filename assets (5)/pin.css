@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.log{
+    display: flex;
+    justify-content: flex-end;
+    background: linear-gradient(-45deg, #2A20AC, #6861CE);
+    padding: 6px;
+
+}
+.log button{
+    background-color: inherit;
+    color: white;
+    font-size: large;
+    font-weight: 500;   
+    padding: 10px;
+    border: none;
+    border-radius: 3.8px;
+}
+.log button:hover{
+    background-color:#3b31c4;
+}
+body{
+    background-color: #f2f2f2 ;
+}
+.B{
+    background-color:  #f2f2f2;
+    display: flex;
+    gap: 1.5cm;
+    justify-content: center;
+}
+.B fieldset{
+    padding: 50px 28px;
+    border-radius: 3.9px;
+    height: 10cm;
+    
+    
+}
+.B fieldset h3{
+    text-align: center;
+    margin-top: -1cm;
+    font-family: lato,sans-serif;
+    font-weight: 200;
+    color: rgb(41, 41, 41);
+    font-size: large;
+}
+.sno{
+    font-size: large;
+    /* font-family:; */
+    
+}
+.snow{
+    padding: 20px;
+    border-radius: 3.9px;
+}
+.pass{
+    border-radius: 3.7px;
+    border:1px solid white;
+    width: 10cm;
+    padding: 12px;
+}
+.pass:focus{
+    border-color: #463af0;
+}
+/* .pass:{
+    border: blue;
+} */
+.p{
+    /* font-size: large; */
+    color: #495057;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin-bottom: 10px; */
+    padding: 10px 0;
+    
+}
+.p:active{
+    border: #3b31c4 solid 1px;
+}
+.di{
+    padding: 12.5px 0;
+}
+.button{
+  width: 10.5cm;
+  padding: 17px 0;
+  border: none;
+  background-color: #48abf7;
+  color: white;
+  border-radius: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  box-shadow: #495057;
+}
+.button:hover{
+    background-color: #67b9f7;
+}

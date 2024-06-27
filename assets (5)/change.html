@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="change.css">
+</head>
+<body>
+    <div class="dropdown">
+        <button onclick="toggleDropdown()" class="dropbtn">Dropdown Button</button>
+        <div id="dropdownContent" class="dropdown-content">
+          <a href="#">Option 1</a>
+          <a href="#">Option 2</a>
+          <a href="#">Option 3</a>
+        </div>
+      </div>
+      <script>
+        function toggleDropdown() {
+  var dropdownContent = document.getElementById("dropdownContent");
+  if (dropdownContent.style.display === "none") {
+    dropdownContent.style.display = "block";
+  } else {
+    dropdownContent.style.display = "none";
+  }
+}
+
+// Close the drop-down menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    for (var i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.style.display === 'block') {
+        openDropdown.style.display = 'none';
+      }
+    }
+  }
+}
+      </script>
+</body>
+</html>
