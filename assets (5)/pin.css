@@ -70,6 +70,7 @@ body{
     border:1px solid white;
     width: 10cm;
     padding: 12px;
+    outline: none;
 }
 .pass1:focus{
     border-color: #463af0;
@@ -79,6 +80,7 @@ body{
     border:1px solid white;
     width: 10cm;
     padding: 12px;
+    outline: none;
 }
 .pass2:focus{
     border-color: #463af0;
@@ -88,6 +90,7 @@ body{
     border:1px solid white;
     width: 10cm;
     padding: 12px;
+    outline: none;
 }
 .pass3:focus{
     border-color: #463af0;
@@ -97,6 +100,7 @@ body{
     border:1px solid white;
     width: 10cm;
     padding: 12px;
+    outline: none;
 }
 .pass4:focus{
     border-color: #463af0;
@@ -106,6 +110,7 @@ body{
     border:1px solid white;
     width: 10cm;
     padding: 12px;
+    outline: none;
 }
 .pass5:focus{
     border-color: #463af0;
@@ -115,6 +120,7 @@ body{
     border:1px solid white;
     width: 10cm;
     padding: 12px;
+    outline: none;
 }
 .pass6:focus{
     border-color: #463af0;
