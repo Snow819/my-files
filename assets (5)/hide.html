@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hide/Unhide Button Example</title>
+    <style>
+        /* CSS styles */
+        #button1 {
+            display: block;
+        }
+
+        #button2 {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Button 1 to hide/unhide Button 2 -->
+    <button id="button1" onclick="toggleButton()">Hide/Unhide Button</button>
+
+    <!-- Button 2 to be hidden/unhidden -->
+    <button id="button2">I will appear and disappear!</button>
+
+    <script>
+        function toggleButton() {
+            var button2 = document.getElementById("button2");
+
+            if (button2.style.display === "none") {
+                button2.style.display = "block";
+            } else {
+                button2.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>

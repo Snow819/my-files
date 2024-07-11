@@ -8,6 +8,29 @@
     background: linear-gradient(-45deg, #2A20AC, #6861CE);
     padding: 6px;
 }
+.snow{
+    color: inherit;
+    margin-right: 8px;
+}
+.Nav-bar2{
+  
+    display:flex;
+    background: linear-gradient(-45deg, #2A20AC, #6861CE);
+    padding: 6px;
+    justify-content: space-between;
+    display: none;
+}
+.Nav-bar2 h2{
+    color: white;
+}
+.three{
+    color: white;
+    background-color: inherit;
+    font-size: large;
+    border: none;
+    /* height: 10px; */
+    margin-top: 7px;
+}
 .Nav-bar button{
     background-color: inherit;
     border: none;
@@ -15,6 +38,16 @@
     font-size: medium;
     font-weight:200;
     padding: 15px 2px;
+}
+.two{
+    display: block;
+    background-color: inherit;
+    border: none;
+    color: white;
+    font-size: medium;
+    font-weight:800;
+    margin-top: 7px;
+    height: 5px;
 }
 .Nav-bar button:hover{
     background-color:#2e23c7;
@@ -58,6 +91,10 @@ body{
 .Bank h4{
     color: #495057;
     font-weight: 550;  
+}
+.wrapper4 h4{
+   color: #495057;
+    font-weight: 550;
 }
 .AccountName{
     padding: 20px;
@@ -118,4 +155,77 @@ body{
     color: #0500ff;
     font-size: large;
     /* text-transform: ; */
+}
+@media(max-width:576px){
+  .Nav-bar{
+    justify-content: center;
+    display: none;
+  }
+  .one{
+    /* justify-content: center; */
+    margin-left: 3.9cm;
+  }
+  .Nav-bar2{
+    display: block;
+    display: flex;
+    padding: 10px 4px;
+  }
+  .container{
+    justify-content: start;
+    margin:0 0.1cm;
+    padding: 20px 40px;
+    /* width: ; */
+  }
+  .Bank{
+    justify-content: start;
+    padding: 1px 5px;
+    margin-top: 10px;
+  }
+  .option{
+    width: 7.9cm;
+    padding: 19px 10px;
+  }
+  .account{
+    width: 7.5cm;
+    padding: 19px 10px;
+  }
+  .password{
+    justify-content: start;
+    padding: 1px 5px;
+    margin-top: 10px;
+  }
+  .pass{
+    width: 7.5cm;
+    padding: 19px 10px;
+  }
+  .change{
+    margin-left: 0.2cm;
+  }
+  .proceed{
+    justify-content: start;
+    padding: 1px 5px;
+    margin-top: 10px;
+  }
+  .proceed button{
+    width: 7.9cm;
+    padding: 19px 10px;
+  }
+  .option{
+
+  }
+  .AccountName{
+    justify-content: start;
+    padding: 1px 5px;
+    margin-top: 10px;
+  }
+   
+  .two{
+    display: block;
+    background-color: inherit;
+    border: none;
+  } 
+  .two:hover{
+    background-color: #110b94;
+  }
+
 }

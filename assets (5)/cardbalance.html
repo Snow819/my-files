@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cardbalance</title>
+    <link rel="stylesheet" href="cardbalance.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
+</head>
+<body class="bod">
+    <h1>Check Card Balance</h1>
+    
+    <div class="wrapper">
+        <div>
+         <img src="giftcard.png" alt="giftcard" class="giftcard">
+        </div>
+        <div class="well">
+            <p class="indicate"> "<span class="spa">*</span>"indicates required fields</p>
+              
+            <div class="dropdownbtn" >
+                 <button id="button" class="button" onclick="toggleButton()">
+                    <h4> Type of card </h4>  <i class=' icon bx bxs-down-arrow'></i>
+                </button>
+                <div class="Type" id="Type">
+                    <input type="search" name="" id="" class="sear">
+                    <li href="" id="li" class="six">Type of card</li>
+                    <li  class="six">Apple</li>
+                    <li href="" class="six">Amazon</li>
+                    <li href="" class="six">Steam</li>
+                    <li href="" class="six">Ebay</li>
+                    <li href="" class="six">Xbox</li>
+                    <li href="" class="six">Googleplay</li>
+                    <li href="" class="six">Playstation</li>
+                    <li href="" class="six">Sephora</li>
+                    <li href="" class="six">RazerGold</li>
+                    <li href="" class="six">Nordstorm</li>
+                    <li href="" class="six">Nike</li>
+                    <li href="" class="owl">Mastercard</li>
+                    <li href="" class="owl">Vanilla</li>
+                    <li href="" class="owl">WalmartVisa</li>
+                    <li href="" class="owl">Visa Silvery</li>
+                    <li href="" class="owl">TT Visa</li>
+                    <li href="" class="amex" id="amex" onclick="togglButton()">Amex</li>
+                </div>
+                
+               <!-- <p class="indicate"> "<span class="spa">*</span>"indicates required fields</p>
+               <h4 class="card">Select type of card<span class="spa">*</span></h4>
+               <select name="" id="option" class="option" onclick="toggleButton()">
+                <option value="">Type of Card</option>
+                <option value="">Apple</option>
+                <option value="">Amazon</option>
+                <option value="">Steam</option>
+                <option value="">Ebay</option>
+                <option value="">Xbox</option>
+                <option value="">Googleplay</option>
+                <option value="">Playstation</option>
+                <option value="">Sephora</option>
+                <option value="">RazerGold</option>
+                <option value="">Nordstorm</option>
+                <option value="">Nike</option>
+                <option value="">Mastercard</option>
+                <option value="">Vanilla</option>
+                <option value="">Walmart visa</option>
+                <option value="">Visa Silvery White</option>
+                <option value="">TT Visa</option>
+                <option value="">Amex</option>
+               </select> -->
+            </div>
+            <div>
+                <select name="" id="" class="option2">
+                    <option value="">Type of Card</option>
+                    <option value="">Apple</option>
+                    <option value="">Amazon</option>
+                    <option value="">Steam</option>
+                    <option value="">Ebay</option>
+                    <option value="">Xbox</option>
+                    <option value="">Googleplay</option>
+                    <option value="">Playstation</option>
+                    <option value="">Sephora</option>
+                    <option value="">RazerGold</option>
+                    <option value="">Nordstorm</option>
+                    <option value="">Nike</option>
+                    <option value="">Mastercard</option>
+                    <option value="">Vanilla</option>
+                    <option value="">Walmart visa</option>
+                    <option value="">Visa Silvery White</option>
+                    <option value="">TT Visa</option>
+                    <option value="">Amex</option>
+                   </select>  
+            </div>
+            <div class="wrapper2">
+                <div>
+                 <h4>Currency<span class="spa">*</span></h4>
+                 <select name="" id="" class="Currency">
+                    <option value="" class="cur">Currency</option>
+                    <option value="">USD</option>
+                    <option value="">GBP</option>
+                    <option value="">AUD</option>
+                    <option value="">EUR</option>
+                    <option value="">CAD</option>
+                 </select>
+                </div>
+                <div>
+                    <h4>Amount<span class="spa">*</span</p><br>
+                    <input type="number" name="" id="" class="amount">
+
+                </div>
+            </div>
+            <div class="wrapper3" id="wrapper3">
+                <h4>Redemption code<span class="spa">*</span></h4>
+                <input type="text" name="" id="" class="Redemption">
+                <p class="P">
+                    Please make sure the codes you are about to input 
+                   <br> are correct and according to details.
+                </p>
+            </div>
+            <div class="wrapper4" id="wrapper4">
+                <div class="ppa">
+                    <h4>Gift Card Number<span class="spa">*</span></h4>
+                    <input type="text" name="" id="" class="pp" placeholder="Gift Card Number">
+                    <p>16 digit number on the face of the card</p>
+                </div>
+                <div>
+                    <h4>Gift Card Expiry Date<span class="spa">*</span></h4>
+                    <input type="text" name="" id="" class="pp" placeholder="MM/YY">
+                </div>
+                <!-- <div>
+                    <h4>4 Digit Pin<span class="spa">*</span></h4>
+                    <input type="number" name="" id="" class="pp" placeholder="4 Digit Pin">
+                </div> -->
+                <div>
+                    <h4>Gift Card CVV<span class="spa">*</span></h4>
+                    <input type="text" name="" id="" class="pp" placeholder="CVV">
+                </div>
+            </div>
+            <div class="wrapper5" id="wrapper5">
+                   <div>
+                    <h4>Redemption code<span class="spa">*</span></h4>
+                    <input type="text" name="" id="" class="Redemption">
+                    <p class="P">
+                        Please make sure the codes you are about to input 
+                       <br> are correct and according to details.
+                    </p>
+                   </div>
+                   <div>
+                    <h4>Gift Card Expiry Date<span class="spa">*</span></h4>
+                    <input type="text" name="" id="" class="pp" placeholder="MM/YY">
+                </div>
+                <div>
+                    <h4>4 Digit Pin<span class="spa">*</span></h4>
+                    <input type="number" name="" id="" class="pp" placeholder="4 Digit Pin">
+                </div>
+                <div>
+                    <h4>Gift Card CVV<span class="spa">*</span></h4>
+                    <input type="text" name="" id="" class="pp" placeholder="CVV">
+                </div>
+            </div>
+            <div>
+                <button>Check Balance</button>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<!-- <script>
+    function toggleButton(){
+       var wrapper3 = document.getElementById("#wrapper3");
+
+       if (wrapper3.style.display === "none") {
+           wrapper3.style.display === "block";
+       } else {
+          wrapper3.style.display === "none";
+       }
+    }
+
+</script> -->
+<script>
+    function toggleButton() {
+        var Type = document.getElementById("Type");
+
+        if (Type.style.display === "none") {
+            Type.style.display = "block";
+        } else {
+           Type.style.display = "none";
+        }
+    }
+    // function toggleButton() {
+    //     var wrapper3 = document.getElementById("wrapper3");
+        
+    //     if (wrapper3.style.display === "none") {
+    //         wrapper3.style.display = "block";
+    //     } else {
+    //         wrapper3.style.display = "none"
+    //     }
+    // }
+   const cards = document.querySelectorAll('.six');
+   cards.forEach(card =>{
+    card.addEventListener('click',function(e){
+        var wrapper3 = document.getElementById("wrapper3");
+        wrapper3.style.display = 'block';
+        var Type = document.getElementById("Type");
+        Type.style.display = 'none';
+        var Type = document.getElementById("wrapper4");
+        Type.style.display = 'none'
+        var Type = document.getElementById("wrapper5");
+        Type.style.display = 'none'
+        var btn = document.querySelector('#button h4')
+        let message = this.innerHTML;
+        btn.innerHTML=message;
+
+    })
+    const cards = document.querySelectorAll('.owl');
+    cards.forEach(card =>{
+        card.addEventListener('click',function(e){
+            var wrapper4 = document.getElementById("wrapper4");
+            wrapper4.style.display = 'block';
+            var Type = document.getElementById("Type");
+            Type.style.display = 'none';
+            var wrapper3 = document.getElementById("wrapper3");
+            wrapper3.style.display = 'none';
+            var wrapper5 = document.getElementById("wrapper5");
+            wrapper5.style.display = 'none'
+        })
+    })
+   })
+   const card = document.querySelector('.amex');
+    card.addEventListener('click',function(e){
+        var wrapper5 = document.getElementById("wrapper5");
+        wrapper5.style.display = 'block';
+        var Type = document.getElementById("Type");
+        Type.style.display = 'none';
+        var wrapper3 = document.getElementById("wrapper3");
+        wrapper3.style.display = 'none';
+        var wrapper4 = document.getElementById("wrapper4");
+        wrapper4.style.display = 'none'
+        
+    })
+   
+// function togglButton() {
+//     var wrapper5 = document.getElementById("wrapper5");
+
+//     if (wrapper5.style.display === "none") {
+//         wrapper5.style.display = "block";  
+//         wrapper4.style.display === "block";
+//         wrapper4.style.display = "none" 
+//     } else {
+//        wrapper5.style.display = "none"; 
+//     }
+// }
+</script>
+
+</html>

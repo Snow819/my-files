@@ -5,12 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="settings.css">
-     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"> -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
 </head>
 <body>
-    <header class="Nav-bar">
-        <button><i class="fa-solid fa-power-off"></i>Logout</button>
+    <div class="Nav-bar2">
+        <div>
+            <button class="three"><i class='bx bx-menu'></i></button>
+        </div>
+        <div>
+           <h2>Welcome</h2>
+        </div>
+        <div>
+        <button class="two" id="two" onclick="toggleButton()"><i class="bi bi-three-dots-vertical"></i></button>
+        </div>
+    </div>
+    <header class="Nav-bar" id="navBar">
+        <button class="one"><i class='snow bx bx-search-alt-2' ></i><i class="fa-solid fa-power-off"></i>Logout</button>
     </header>
     <div class="hea">
         <h3>Edit Profile</h3>
@@ -34,7 +46,7 @@
                 <input type="text" name="" id="" class="account">
             </div>
             <div class="AccountName">
-                <h4>AccountName*</h4>
+                <h4>AccountNumber*</h4>
                 <input type="text" name="" id="" class="account" required="Please fill out this field">
             </div>
             <div class="password">
@@ -52,4 +64,15 @@
     </div>
     
 </body>
+<script>
+    function toggleButton() {
+        var navBar =document.getElementById("navBar");
+
+        if (navBar.style.display === "none") {
+            navBar.style.display = "block";
+        } else {
+            navBar.style.display = "none";     
+        }
+    }
+</script>
 </html>
